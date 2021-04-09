@@ -7,7 +7,7 @@ module.exports = {
   },
   devtool: 'inline-source-map',
   devServer: {
-    contentBase: path.join(__dirname, 'src'),
+    contentBase: './dist',
   },
   target: 'node',
   plugins: [
